@@ -1,0 +1,19 @@
+- headers:
+    user-agent: health-synthetic-monitor
+  method: GET
+  name: fake one
+  url: https://fasfjdksfjdkcslal.com
+- headers:
+    user-agent: health-synthetic-monitor
+  method: GET
+  name: google
+  url: https://google.com
+- body: '{"foo":"bar"}'
+  headers:
+    content-type: application/json
+  user-agent: health-synthetic-monitor
+  method: POST
+  name: some fake post endpoint
+  url: https://example.com/some/post/endpoint
+- name: alex's homepage
+  url: https://ak0.io
